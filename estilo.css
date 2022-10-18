@@ -6,7 +6,7 @@
     margin: 0px;
 }
 :root{
-    --tipo-letra: "Nunito", Helvetica, Arial, sans-sarif;
+    --tipo-letra: Arial, Verdana, Helvetica, sans-serif;
     --verde-escuro: #049A40;
     --verde-claro: #0BF96A;
     --rosa-escuro: #E10BF9;
@@ -20,8 +20,24 @@ body{
 }
 a{
     text-decoration: none;
-    color: var(--preto);
+    color: var(--branco);
 }
+main{
+    background-color: white;
+    margin: auto;
+    margin-bottom: 30px;
+
+    max-width: 1000px;
+    min-width: 260px;
+
+    padding: 20px;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 .menu-bg{
     background-color: var(--verde-claro);
 }
@@ -64,6 +80,7 @@ hr{
 p{
     line-height: 21.82px;
     padding: 0 10px;
+    text-align: justify;
 }
 .sessao_titulo{
     text-align: center;
